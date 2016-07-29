@@ -15,6 +15,8 @@
 		CA0A4B7F1D4B47EA00A8B462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0A4B7D1D4B47EA00A8B462 /* LaunchScreen.storyboard */; };
 		CA0A4B8A1D4B47EA00A8B462 /* ___timeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0A4B891D4B47EA00A8B462 /* ___timeTests.m */; };
 		CA0A4B951D4B47EA00A8B462 /* ___timeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0A4B941D4B47EA00A8B462 /* ___timeUITests.m */; };
+		CA0A4BA41D4B487800A8B462 /* LXPcountdownbutton.m in Sources */ = {isa = PBXBuildFile; fileRef = CA0A4BA31D4B487800A8B462 /* LXPcountdownbutton.m */; };
+		CA0A4BA61D4B5ABE00A8B462 /* 1weixin1.png in Resources */ = {isa = PBXBuildFile; fileRef = CA0A4BA51D4B5ABE00A8B462 /* 1weixin1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		CA0A4B901D4B47EA00A8B462 /* 倒计时timeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "倒计时timeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA0A4B941D4B47EA00A8B462 /* ___timeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___timeUITests.m"; sourceTree = "<group>"; };
 		CA0A4B961D4B47EA00A8B462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA0A4BA21D4B487800A8B462 /* LXPcountdownbutton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXPcountdownbutton.h; sourceTree = "<group>"; };
+		CA0A4BA31D4B487800A8B462 /* LXPcountdownbutton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXPcountdownbutton.m; sourceTree = "<group>"; };
+		CA0A4BA51D4B5ABE00A8B462 /* 1weixin1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1weixin1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,13 @@
 		CA0A4B6E1D4B47EA00A8B462 /* 倒计时time */ = {
 			isa = PBXGroup;
 			children = (
+				CA0A4BA51D4B5ABE00A8B462 /* 1weixin1.png */,
 				CA0A4B721D4B47EA00A8B462 /* AppDelegate.h */,
 				CA0A4B731D4B47EA00A8B462 /* AppDelegate.m */,
 				CA0A4B751D4B47EA00A8B462 /* ViewController.h */,
 				CA0A4B761D4B47EA00A8B462 /* ViewController.m */,
+				CA0A4BA21D4B487800A8B462 /* LXPcountdownbutton.h */,
+				CA0A4BA31D4B487800A8B462 /* LXPcountdownbutton.m */,
 				CA0A4B781D4B47EA00A8B462 /* Main.storyboard */,
 				CA0A4B7B1D4B47EA00A8B462 /* Assets.xcassets */,
 				CA0A4B7D1D4B47EA00A8B462 /* LaunchScreen.storyboard */,
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA0A4B7F1D4B47EA00A8B462 /* LaunchScreen.storyboard in Resources */,
+				CA0A4BA61D4B5ABE00A8B462 /* 1weixin1.png in Resources */,
 				CA0A4B7C1D4B47EA00A8B462 /* Assets.xcassets in Resources */,
 				CA0A4B7A1D4B47EA00A8B462 /* Main.storyboard in Resources */,
 			);
@@ -270,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA0A4BA41D4B487800A8B462 /* LXPcountdownbutton.m in Sources */,
 				CA0A4B771D4B47EA00A8B462 /* ViewController.m in Sources */,
 				CA0A4B741D4B47EA00A8B462 /* AppDelegate.m in Sources */,
 				CA0A4B711D4B47EA00A8B462 /* main.m in Sources */,
@@ -496,6 +506,7 @@
 				CA0A4B9B1D4B47EA00A8B462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA0A4B9C1D4B47EA00A8B462 /* Build configuration list for PBXNativeTarget "倒计时timeTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +515,7 @@
 				CA0A4B9E1D4B47EA00A8B462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA0A4B9F1D4B47EA00A8B462 /* Build configuration list for PBXNativeTarget "倒计时timeUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +524,7 @@
 				CA0A4BA11D4B47EA00A8B462 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
